@@ -1,0 +1,14 @@
+/*OBJECTIVE: create a 16x16 grid */
+
+.container {
+background-color: aqua;
+border-color: brown;
+border-style: solid;
+display: grid;
+grid-template-columns: repeat(16, auto);   /* sets qty of columns, if all are same size */
+grid-template-rows: repeat(16, auto);      /* sets qty of rows, if all are same size*/
+}
+
+div {
+    background-color: aqua;
+}
